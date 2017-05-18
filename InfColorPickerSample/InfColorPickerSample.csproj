@@ -90,7 +90,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
-    <Folder Include="Classes\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -108,7 +107,6 @@
     <Compile Include="ViewController.designer.cs">
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="Classes\ColorSelectedDelegate.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\InfColorPickerBinding\InfColorPickerBinding.csproj">
